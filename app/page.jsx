@@ -29,7 +29,7 @@ export default async function page() {
       <Header />
       
       <div className="flex flex-col items-center justify-center mt-10 space-y-4">
-        <h1 className="text-[#A394FF]  text-4xl font-bold text-center">Pas Assez Jolie</h1>
+        <h1 className="text-[#B1275B]  text-4xl font-bold text-center">Pas Assez Jolie</h1>
         <p className="text-center text-gray-500">Simples et élégants, les bracelets qui charment!📿✨</p>
       </div>
 

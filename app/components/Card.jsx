@@ -11,14 +11,14 @@ function Card({product}) {
         </div>
 
         <div className="p-4 space-y-2">
-            <h1 className="text-[#A394FF] text-3xl font-semibold">{product.name}</h1>
+            <h1 className="text-[#B1275B] text-3xl font-semibold">{product.name}</h1>
             <p className="text-xl text-gray-500 truncate">{product.description}</p>
             <br />
             <br />
         </div>
 
         <div className=" absolute bottom-0 right-0 p-2 bg[#f5f3ff] shadow-md ">
-            <span className=" text-[#A394FF] text-lg font-semibold">{product?.price}DT</span>
+            <span className=" text-[#B1275B] text-lg font-semibold">{product?.price}DT</span>
         </div>
     </div>
     </Link>

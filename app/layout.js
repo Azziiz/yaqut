@@ -1,8 +1,9 @@
 import { Inter } from 'next/font/google'
+import { Chau_Philomene_One } from 'next/font/google' 
 import { ClerkProvider } from '@clerk/nextjs'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Chau_Philomene_One({ subsets: ['latin'], weight:'400' })
 
 export const metadata = {
   title: 'Yaqut',
